@@ -1,0 +1,20 @@
+int globalVar = 100;
+
+int add(int a, int b) {
+    int result;
+    result = a + b;
+    return result;
+}
+
+int main() {
+    int x = 1;
+    int y = 2;
+    int z;
+    z = add(x, y);
+    if (z > 0) {
+        x = z;
+    } else {
+        x = 0;
+    }
+    return x;
+}

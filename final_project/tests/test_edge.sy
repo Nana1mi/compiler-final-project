@@ -1,0 +1,11 @@
+const int c = 3;
+
+int main() {
+    int x = 1;
+    if (!0) {
+        x = c;
+    } else {
+        x = 3;
+    }
+    return x;
+}

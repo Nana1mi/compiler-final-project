@@ -1,0 +1,50 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# C/C++ build outputs
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.pdb
+*.ilk
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.out
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated AST files; regenerate with --ast-out when needed.
+final_project/tests/*.ast.json
+
+# Local build directory for the C++ IR generator.
+final_project/ir_gen/build/
+
+# Generated files from old lex/yacc lab code.
+lab4/code/lex.yy.c
+lab4/code/parser.tab.c
+lab4/code/parser.tab.h
+lab4/code/parser
